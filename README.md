@@ -3,7 +3,9 @@
 ```markdown
 ## How to Get This Project Rolling
 
-Yo, this project’s got a slick modular setup, so it’s super easy to tweak and build on. I made sure to ditch hardcoding to keep things flexible and avoid headaches down the road. Here’s the deal on how to get it up and running.
+Yo, this project’s got a slick modular setup, so it’s super easy to tweak and build on.
+I made sure to ditch hardcoding to keep things flexible and avoid headaches down the road.
+Here’s the deal on how to get it up and running.
 
 ### Setting It Up
 Getting this project going is a breeze:
@@ -15,7 +17,7 @@ Getting this project going is a breeze:
 
 2. **Make a `tournament` folder** in the project root. That’s where your output CSV files will hang out.
 
-3. **Plug in the API endpoint** in `src/api_client.py`. There’s a placeholder URL (`https://api-tennis.com/endpoint?API_KEY={self.api_key}`). Swap it out with the real endpoint from `api-tennis.com`’s docs. If you’re using a different API, just drop that endpoint in instead.
+3. **Plug in the API endpoint** in `src/api_client.py`. There’s a placeholder URL (`https://api-tennis.com/endpoint?API_KEY={self.api_key}`).Swap it out with the real endpoint from `api-tennis.com`’s docs. If you’re using a different API, just drop that endpoint in instead.
 
 ### Tweaking the JSON Validation
 In `src/data_processor.py`, I set up the code to check if the JSON data from the API is legit, based on how `api-tennis.com` structures its responses (like checking for a `"success": 1` key). If you’re using a different API or the JSON structure’s different, peek at the API’s docs and tweak the `process_tournament_data` function to match. It’s built to be flexible, so you can adjust it without breaking a sweat.
