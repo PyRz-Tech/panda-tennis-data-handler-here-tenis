@@ -35,9 +35,9 @@ I spilled all the tea on why I picked the tools and how I built this in the proj
 
 ### Connect with Me
 Wanna chat about the project or catch updates? Hit me up on:
-- [Twitter](#) (https://twitter.com/PyRzTech)
-- [LinkedIn](#) (https://www.linkedin.com/in/mohammadreza-mahdian-38304038a)
-- [Dev.to](#) (https://dev.to/mohammadreza_mahdian_3841)
+- [Twitter](https://twitter.com/PyRzTech)
+- [LinkedIn](https://www.linkedin.com/in/mohammadreza-mahdian-38304038a)
+- [Dev.to](https://dev.to/mohammadreza_mahdian_3841)
 
 ### Wrapping Up
 This project’s designed to be a cinch to use and tweak. Just set up your `.env`, make the `tournament` folder, plug in the right endpoint, and you’re golden. If you’re using a different API, adjust the JSON validation in `data_processor.py` based on the API’s docs. The modular setup and no-hardcoding rule make it a breeze to work with, and the docs got your back for more details. Happy coding!
